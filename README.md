@@ -1,16 +1,60 @@
-# React + Vite
+# 🎮 GTA VI Web Experience — React + GSAP + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cinematic, scroll-driven web experience inspired by the viral **GTA VI website**.  
+Built with **React**, **GSAP (ScrollTrigger)**, **Tailwind CSS**, and **Vite** to deliver high-impact motion design: scroll-synced video, pinned sections, parallax depth, SplitText-style reveals, and masked transitions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ✨ Motion & Interaction
+- **ScrollTrigger timelines** for precise, scroll-bound animations
+- **Scroll-synced video playback** (play/pause/scrub on scroll)
+- **Pinned sections** with seamless scene handoffs
+- **SplitText-style** bold typographic reveals
+- **Parallax layers** for cinematic depth
+- **Image masking effects** (clipPath / SVG / canvas)
+- **Custom animated carousel** with drag + autoplay
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧠 Architecture
+- **React components** with reusable animation hooks
+- **Tailwind utility classes** for rapid, scalable UI
+- **Responsive** and mobile-friendly layout
+- **Vite** for ultra-fast HMR and optimized builds
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+
+| Tech | Purpose |
+| --- | --- |
+| **React** | Component model, state, effects |
+| **Tailwind CSS** | Utility-first styling |
+| **GSAP + ScrollTrigger** | Advanced animation & scroll control |
+| **Vite** | Fast dev server & production bundling |
+
+---
+
+## 🤸 Quick Start
+
+### 1) Prerequisites
+- **Git**
+- **Node.js** 
+- **npm**
+
+### 2) Clone
+```bash
+git clone https://github.com/AudreyTan03/GTA-VI.git
+cd GTA
+
+
+📦 Install Dependencies
+npm install
+
+▶️ Run Development Server
+npm run dev
+
+
+Open in your browser:
+
+http://localhost:5173
