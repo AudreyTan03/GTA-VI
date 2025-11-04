@@ -31,7 +31,7 @@ const Jason = () => {
         <h2>Jason wants an easy life, but things just keep getting harder.</h2>
         <p>Jason grew up around grifters and crooks. After a stint in the Army trying to shake off his troubled teens, he found himself in the Keys doing what he knows best, working for local drug runners. It might be time to try something new.</p>
 
-        <div className="jason-2">                   // main image
+        <div className="jason-2">                   {/* main image */}
           <img src="/images/jason-2.webp" />
         </div>
       </div>
