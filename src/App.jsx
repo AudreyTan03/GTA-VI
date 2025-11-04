@@ -1,16 +1,18 @@
 import React from 'react'
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import NavBar from './sections/NavBar';
+import Hero from './sections/Hero';
 
 gsap.registerPlugin(ScrollTrigger); // para di mo na need register isa isa pede mo gawin to
 
 function App() {
   return (
-    <div>
+<main>
 
-        <h1 className="text-3xl text-indigo-600"> WELKUM BA</h1>
-
-    </div>
+    <NavBar/>
+    <Hero/>
+</main>
   )
 }
 
