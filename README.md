@@ -30,7 +30,7 @@ Built with **React**, **GSAP (ScrollTrigger)**, **Tailwind CSS**, and **Vite** t
 | --- | --- |
 | **React** | Component model, state, effects |
 | **Tailwind CSS** | Utility-first styling |
-| **GSAP + ScrollTrigger** | Advanced animation & scroll control |
+| **GSAP ** | Animation |
 | **Vite** | Fast dev server & production bundling |
 
 ---
